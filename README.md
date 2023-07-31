@@ -1,2 +1,1 @@
-# Practice-1
-Practising template from lesson 1
+[# fe-94](https://riko1212.github.io/fe-94/)
