@@ -83,9 +83,8 @@ ol {
 */
 
 .container {
-  /* width: 1166px; */
   width: 100%;
-  max-width: 1166px;
+  max-width: 335px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -183,21 +182,33 @@ ol {
   |============================
 */
 .header {
-  padding-top: 24px;
-  padding-bottom: 32px;
+  padding-top: 20px;
+  padding-bottom: 14px;
 }
 
 .header-navigation {
 }
 .header-logo {
-  font-size: 18px;
+  font-size: 14px;
+  font-style: italic;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.29;
   letter-spacing: -0.03em;
 }
+
 .header-logo-italic {
   font-style: italic;
 }
+
+.header-menu-btn {
+  background-color: transparent;
+  border: none;
+  margin-left: 138px;
+}
+.header-menu-icon {
+  stroke: var(--main-cl);
+}
+
 .header-socials {
 }
 /**
@@ -206,36 +217,67 @@ ol {
   |============================
 */
 .hero {
-  padding-bottom: 80px;
+  padding-bottom: 79px;
 }
 
 .hero-wrap {
   background-color: var(--main-cl-60);
   border-radius: 30px;
-  padding: 381px 40px 40px 40px;
+  padding: 395px 16px 21px 20px;
 }
 
 .hero-title {
   color: var(--white-cl);
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.21;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: -0.03em;
-  max-width: 484px;
+  max-width: 299px;
   margin-bottom: 32px;
 }
-.hero-btn {
+.hero-buy-btn {
   color: var(--white-cl);
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 100px;
+  background: var(--accent-cl);
+  margin-right: 14px;
+  margin-bottom: 32px;
 }
+
+.hero-buy-btn:hover,
+.hero-buy-btn:focus {
+  color: var(--accent-cl);
+  background-color: var(--beige-cl);
+}
+
 .hero-link-btn {
+  display: inline-block;
   color: var(--white-cl);
+  font-family: inherit;
   font-size: 14px;
   font-weight: 600;
+  border-radius: 100px;
+  border: 1px solid var(--white-cl);
+  padding: 12px 28px;
 }
-.hero-down-btn {
+
+.hero-link-btn:hover,
+.hero-link-btn:focus {
+  color: var(--accent-cl);
+  border: 1px solid var(--accent-cl);
+}
+
+.hero-scroll-link {
+  display: block;
+  color: var(--white-cl);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+}
+
+.hero-scroll-btn {
   color: var(--white-cl);
   font-size: 14px;
   font-weight: 500;
